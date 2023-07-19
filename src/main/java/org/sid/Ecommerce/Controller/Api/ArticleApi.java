@@ -8,7 +8,6 @@ import org.sid.Ecommerce.Dto.ArticleDto;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
 
-import java.awt.*;
 import java.util.List;
 
 import static org.sid.Ecommerce.Utils.Constant.APP_ROOT;

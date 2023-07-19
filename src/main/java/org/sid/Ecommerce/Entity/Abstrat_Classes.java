@@ -18,7 +18,7 @@ public class Abstrat_Classes {
     @GeneratedValue
     private Integer id;
     @CreatedDate
-    @Column(name = "creationDate", nullable = false, updatable = false)
+    @Column(name = "creationDate")
     private Instant creationDate;
     @LastModifiedDate
     @Column(name = "lastModifiedDate")
