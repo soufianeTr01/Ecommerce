@@ -4,7 +4,6 @@ package org.sid.Ecommerce.Controller;
 import org.sid.Ecommerce.Controller.Api.ArticleApi;
 import org.sid.Ecommerce.Dto.ArticleDto;
 import org.sid.Ecommerce.Services.ArticleService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
