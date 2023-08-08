@@ -1,9 +1,9 @@
 package org.sid.Ecommerce.Entity;
 
-import jakarta.persistence.*;
 import lombok.*;
 
 import java.util.List;
+import javax.persistence.*;
 
 @Entity
 @Data

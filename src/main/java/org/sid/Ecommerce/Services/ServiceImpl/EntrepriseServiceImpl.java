@@ -1,6 +1,5 @@
 package org.sid.Ecommerce.Services.ServiceImpl;
 
-import ch.qos.logback.core.spi.ErrorCodes;
 import lombok.extern.slf4j.Slf4j;
 import org.sid.Ecommerce.Dao.EntrepriseRepository;
 import org.sid.Ecommerce.Dao.UtilisateurRepository;

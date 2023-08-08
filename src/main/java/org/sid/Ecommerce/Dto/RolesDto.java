@@ -1,8 +1,8 @@
 package org.sid.Ecommerce.Dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
+import javax.persistence.*;
+
 import lombok.Builder;
 import lombok.Data;
 import org.sid.Ecommerce.Entity.Roles;

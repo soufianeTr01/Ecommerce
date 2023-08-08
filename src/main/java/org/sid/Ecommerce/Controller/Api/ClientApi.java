@@ -11,7 +11,7 @@ import static org.sid.Ecommerce.Utils.Constant.APP_ROOT;
 
 @Api(APP_ROOT+"/clients")
 public interface ClientApi {
-    @PostMapping(value = APP_ROOT + "/clients/create", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    @PostMapping(value = APP_ROOT + "/clients/create", consumes = MediaType .APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     ClientDto save(@RequestBody ClientDto dto);
 
     @GetMapping(value = APP_ROOT + "/clients/{idClient}", produces = MediaType.APPLICATION_JSON_VALUE)

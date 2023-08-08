@@ -1,11 +1,11 @@
 package org.sid.Ecommerce.Entity;
 
-import jakarta.persistence.Column;
-import jakarta.persistence.Entity;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.Table;
+import javax.persistence.*;
+
 import lombok.*;
 
+import javax.persistence.Column;
+import javax.persistence.Table;
 import java.util.List;
 
 @Entity

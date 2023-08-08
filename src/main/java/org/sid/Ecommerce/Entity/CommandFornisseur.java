@@ -1,7 +1,7 @@
 package org.sid.Ecommerce.Entity;
 
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 import java.time.Instant;

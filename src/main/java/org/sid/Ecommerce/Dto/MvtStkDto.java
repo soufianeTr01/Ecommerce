@@ -1,7 +1,7 @@
 package org.sid.Ecommerce.Dto;
 
-import jakarta.persistence.JoinColumn;
-import jakarta.persistence.ManyToOne;
+import javax.persistence.*;
+
 import lombok.Builder;
 import lombok.Data;
 import org.sid.Ecommerce.Entity.Article;

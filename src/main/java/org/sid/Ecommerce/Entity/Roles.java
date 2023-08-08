@@ -1,8 +1,8 @@
 package org.sid.Ecommerce.Entity;
 
-import jakarta.persistence.*;
 import lombok.*;
 
+import javax.persistence.*;
 
 @Data
 @NoArgsConstructor

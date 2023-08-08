@@ -1,10 +1,8 @@
 package org.sid.Ecommerce.Dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import jakarta.persistence.OneToMany;
 import lombok.Builder;
 import lombok.Data;
-import org.sid.Ecommerce.Entity.Article;
 import org.sid.Ecommerce.Entity.Category;
 
 import java.util.List;
